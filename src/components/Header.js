@@ -1,11 +1,13 @@
 import React from 'react';
 
 
-export default function Header(){
+export default function Header({ title, children }) {
 
   return (
     <header>
-      <h1>Header ReactJS</h1>
+      <h1>{title}</h1>
+
+      {children}
     </header>
   );
 }

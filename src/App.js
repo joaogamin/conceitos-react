@@ -5,8 +5,12 @@ function App() {
 
   return (
     <>
-      <Header />
-      <Header />
+      <Header title="Homepage">
+        <ul>
+          <li>menu 1</li>
+        </ul>
+      </Header>
+      <Header title="Projects" />
     </>
 
   );
